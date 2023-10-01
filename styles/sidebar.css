@@ -1,0 +1,22 @@
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 200;
+  top:0;
+  right:0;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  transition: 0.2s;
+}
+
+.sidebar a {
+  font-size: var(--big-font-size);
+  letter-spacing: var(--big-font-kern);
+  padding: 20px 0px 20px 30px;
+  margin-top: -1px;
+  border-style: solid none solid none;
+  border-width: 1px;
+}

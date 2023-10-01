@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portopalos</title>
+
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@300,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body id="main">
+
+    <div class="navbar">
+      <div class="navbar-links">
+        <div class="navbar-logo-container">
+          <img class="navbar-logo" src="resources/logo/portopalos-logo.svg">
+        </div>
+        <div class="navbar-link">Chi siamo</div>
+        <div class="navbar-link">Feste ed Eventi</div>
+        <div class="navbar-link">Le Nostre Offerte</div>
+        <div class="navbar-link">Gallery</div>
+      </div>
+      <div class="navbar-right">About</div>
+    </div>
+
+    <div class="navbar-mobile">
+      <div class="navbar-links">
+        <div class="navbar-logo-container">
+          <img class="navbar-logo" src="resources/logo/portopalos-logo.svg">
+        </div>
+      </div>
+      <button class="navbar-hamburger" onclick="openNav()">
+        <img class="hamburger-icon" src="resources/icons/hamburger-menu.svg">
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <a href="javascript:void(0)" class="sidebar-close" onclick="closeNav()">&times;</a>
+      <a href="#">Chi siamo</a>
+      <a href="#">Feste ed Eventi</a>
+      <a href="#">Le Nostre Offerte</a>
+      <a href="#">About</a>
+    </div>
+
+    <script>
+      function openNav() {
+         document.getElementById("sidebar").style.width = "100%"; 
+      }
+      function closeNav() {
+          document.getElementById("sidebar").style.width = "0";
+      }
+    </script>
+
+
+
+    <div class="hero-section">
+      <div class="hero-image-container">
+        <img src="resources/media/home-picture-01.jpeg" class="hero-image">
+      </div>
+      <div class="hero-claim">
+        È QUI LA FESTA!
+      </div>
+    </div>
+
+    <div class="section01">
+      <div class="section01-text">
+        Compleanni, lauree o feste aziendali: PORTOPALOS è il locale per eventi al Vomero, ideale per divertire te e i tuoi ospiti!
+      </div>
+      <div class="hero-logo">
+        <img class="section01-logo" src="resources/logo/portopalos-logo.svg">
+      </div>
+    </div>
+
+    <div class="section02">
+      <div class="section02-grid-01">
+        PORTOPALOS è il locale per feste più noto di Napoli, grazie a un’attività di trent’anni che ci ha permesso di festeggiare la maggiore età dei ragazzi di oggi e dei rispettivi genitori. 
+      </div>
+      <div class="section02-grid-02">
+        <div class="section02-grid-02-subgrid">
+          L’esperienza di rende sempre trendy, sia per giovani che adulti. Non solo ristrutturiamo periodicamente il locale secondo le tendenze del momento, ma possiamo personalizzare spazi e allestimenti in base alle tue richieste e alle caratteristiche dell’evento.
+        </div>
+        <div class="section02-grid-02-subgrid">
+          In tre ambienti diversi (Sala Music, Lounge e Relax room) i nostri ospiti possono danzare, darsi ai piaceri della nostra ottima cucina e rilassarsi. Tutti, da noi, devono potersi divertire e ricordare la tua festa come qualcosa di memorabile.
+          Vienici a trovare, siamo al Vomero. Ci puoi raggiungere con una delle tre funicolari, con la Linea 1 della metropolitana, oppure puoi parcheggiare a fianco al locale!
+        </div>
+      </div>
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+      <div class="section02-grid-03">
+        Scopri di più &#10141;
+      </div>
+      </a>
+    </div>
+
+
+    <div class="section03">
+      <img class="section03-image" src="resources/media/home-picture-02.jpeg">
+    </div>
+
+    <div class="section04">
+      <div class="section04-title">
+        Feste di Compleanno ed Eventi personalizzati
+      </div>
+      <button class="section04-accordion">
+        <div class="accordion-button">
+          <div class="accordion-text">Feste di 18 anni</div>
+          <div class="accordion-icon">+</div>
+        </div>
+        <div class="accordion-panel-container">
+          <div class="accordion-panel">
+            <img src="resources/media/home-picture-01.jpeg">
+            <div class="accordion-paragraph-container">
+              <div class="accordion-paragraph">
+                <div class="accordion-paragraph-big">
+                  Vuoi una personalizzazione che possa rendere unica la tua festa di compleanno? Chiedi al nostro Party planner!
+                </div>
+                <div class="accordion-paragraph-small">
+                  Il compleanno dei 18 anni non può passare inosservato! Invita compagni di scuola e amici per un’esclusiva festa al Vomero, con ampia sala da ballo, maestoso buffet e modernissimo DJ set. <br><br> Scopri di più &#10141;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <button class="section04-accordion">
+        <div class="accordion-button">
+          <div class="accordion-text">Feste 40, 50 e 60 anni</div>
+          <div class="accordion-icon">+</div>
+        </div>
+        <div class="accordion-panel-container">
+          <div class="accordion-panel">
+            <img src="resources/media/home-picture-01.jpeg">
+            <div class="accordion-paragraph-container">
+              <div class="accordion-paragraph">
+                <div class="accordion-paragraph-big">
+                  Vuoi organizzare una festa a tema, che ci riporti agli anni di quando andavi in discoteca? Noi siamo qui ed esaudiamo i tuoi desideri!
+                </div>
+                <div class="accordion-paragraph-small">
+                  Il compleanno dei 18 anni non può passare inosservato! Invita compagni di scuola e amici per un’esclusiva festa al Vomero, con ampia sala da ballo, maestoso buffet e modernissimo DJ set. <br><br> Scopri di più &#10141;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <button class="section04-accordion">
+        <div class="accordion-button">
+          <div class="accordion-text">Feste Aziendali</div>
+          <div class="accordion-icon">+</div>
+        </div>
+        <div class="accordion-panel-container">
+          <div class="accordion-panel">
+            <img src="resources/media/home-picture-01.jpeg">
+            <div class="accordion-paragraph-container">
+              <div class="accordion-paragraph">
+                <div class="accordion-paragraph-big">
+                  Che ne dici di organizzare una festa a tema, in base al settore di business della tua azienda?
+                </div>
+                <div class="accordion-paragraph-small">
+                  Mostra ai tuoi clienti quanto tieni a loro: portali in una location esclusiva in cui potersi “sciogliere” e stare a loro agio. E i tuoi dipendenti? Saranno molto più legati all’azienda e a te dopo la festa aziendale natalizia che avrai<br><br> Scopri di più &#10141;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <button class="section04-accordion">
+        <div class="accordion-button">
+          <div class="accordion-text">Eventi Speciali</div>
+          <div class="accordion-icon">+</div>
+        </div>
+        <div class="accordion-panel-container">
+          <div class="accordion-panel">
+            <img src="resources/media/home-picture-01.jpeg">
+            <div class="accordion-paragraph-container">
+              <div class="accordion-paragraph">
+                <div class="accordion-paragraph-big">
+                  Secondo noi sì e possiamo rendere questi eventi divertentissimi, personalizzando la festa e affiancandoti gratuitamente un party planner!
+                </div>
+                <div class="accordion-paragraph-small">
+                  Il compleanno dei 18 anni non può passare inosservato! Invita compagni di scuola e amici per un’esclusiva festa al Vomero, con ampia sala da ballo, maestoso buffet e modernissimo DJ set. <br><br> Scopri di più &#10141;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion-button");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          /* Toggle between adding and removing the "active" class,
+          to highlight the button that controls the panel */
+          this.classList.toggle("active");
+
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <div class="section05">
+      PORTOPALOS, su richiesta, mette a disposizione dei suoi clienti, gratuitamente, una consulente che li segue nella scelta e nell’organizzazione di tutti dettagli dell’evento.
+    </div>
+
+    <div class="footer">
+      <div class="footer-grid-01">
+        <div class="footer-logo-container">
+          <img class="footer-logo" src="resources/logo/portopalos-logo.svg">
+        </div>
+        <div class="footer-links">
+        <div class="footer-link">
+          <img class="social-media-icon" src="resources/icons/social-icons-facebook.svg">
+        </div>
+        <div class="footer-link">
+          <img class="social-media-icon" src="resources/icons/social-icons-instagram.svg">
+        </div>
+        <div class="footer-link">
+          <img class="social-media-icon" src="resources/icons/social-icons-mail.svg">
+        </div>
+      </div>
+      </div>
+      <div class="footer-grid-02">
+        <div class="footer-address">
+          Via Ligorio Pirro 21<br>
+        80129 Vomero, Napoli
+        </div>
+        <div class="footer-message">
+          Puoi visitare il PORTOPALOS <br>
+          da lunedì al sabato dalle 17.30 alle 20.00.
+        </div>
+        
+      </div>
+      <div class="footer-grid-03">
+          <div class="footer-contacts">
+            +39 081 365 4479
+          </div>
+          <div class="footer-contacts">
+            +39 347109 1047
+          </div>
+          <div class="footer-contacts">
+            info@portopalos.it
+          </div>
+      </div>
+      <div class="footer-grid-04">
+        <div class="footer-copyright">
+          2023 © - PORTOPALOS ­— Music & Events
+        </div>
+        <div class="footer-privacy">
+          Privacy Policy
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
